@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TritonNet.PIDController.Wpf", "TritonNet.PIDController.Wpf\TritonNet.PIDController.Wpf.csproj", "{B8215943-9567-45B0-B206-5840B726D7EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8215943-9567-45B0-B206-5840B726D7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8215943-9567-45B0-B206-5840B726D7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8215943-9567-45B0-B206-5840B726D7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8215943-9567-45B0-B206-5840B726D7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFB28976-A982-448E-A261-76182AE700C0}
+	EndGlobalSection
+EndGlobal

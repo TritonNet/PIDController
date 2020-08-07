@@ -13,13 +13,7 @@ namespace TritonNet.PIDController.Wpf
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-
-        protected void OnPropertyChange([CallerMemberName]string propertyName = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public void Initialize()
+        public VmMain()
         {
             SeriesCollection = new SeriesCollection
             {
@@ -59,6 +53,16 @@ namespace TritonNet.PIDController.Wpf
 
             //modifying any series values will also animate and update the chart
             SeriesCollection[3].Values.Add(5d);
+        }
+
+        protected void OnPropertyChange([CallerMemberName]string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void Initialize()
+        {
+            
         }
 
         public SeriesCollection SeriesCollection { get; set; }
